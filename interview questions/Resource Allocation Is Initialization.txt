@@ -1,0 +1,5 @@
+RAII (Resource Acquisition Is Initialization) is a C++ programming technique 
+where resource allocation (like memory, file handles, or mutexes) is tied 
+to an object’s lifetime. When the object is created, it acquires 
+the resource, and when the object goes out of scope, its destructor 
+automatically releases the resource.
